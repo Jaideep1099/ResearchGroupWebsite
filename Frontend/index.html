@@ -20,10 +20,6 @@
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
     crossorigin="anonymous"></script>
 
-  <!--Carousel-->
-  <link rel="stylesheet" href="assets/css/home_carousel.css">
-  <script src="assets/js/home_carousel.js"></script>
-
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -61,9 +57,7 @@
     <div class="container d-flex align-items-center">
 
       <h1 class="logo me-auto"><a href="index.html"><img src="assets/img/logo.jpg" /></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
+     
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="active" href="index.html">Home</a></li>
@@ -76,7 +70,6 @@
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-
     </div>
   </header><!-- End Header -->
 
@@ -88,29 +81,53 @@
     </div>
   </section><!-- End Hero -->
 
-  <!-- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="assets/img/img2.jpg" class="d-block w-100" alt="IMG1">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/course-2.jpg" class="d-block w-100" alt="IMG2">
-      </div>
-      <div class="carousel-item">
-        <img src="assets/img/course-3.jpg" class="d-block w-100" alt="IMG3">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div> -->
+
 
   <main id="main">
+
+    <section id="news" class="container">
+      <div class="row" >
+        <div class="col-9">
+          <table class="table">
+            <thead class='table-dark'>
+              <th>News</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Link to News</td>
+              </tr>
+              <tr>
+                <td>Link to News</td>
+              </tr>
+              <tr>
+                <td>Link to News</td>
+              </tr>
+              <tr>
+                <td>Link to News</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="col-3">
+          <table class="table">
+            <thead class='table-dark'>
+              <th>Achievements</th>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Link to achievement</td>
+              </tr>
+              <tr>
+                <td>Link to achievement</td>
+              </tr>
+              <tr>
+                <td>Link to achievement</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
 
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -120,7 +137,32 @@
         </div>
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left" data-aos-delay="100">
-            <img src="assets/img/img2.jpg" class="img-fluid" alt="">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/img/img2.jpg" class="d-block w-100" alt="IMG1">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/cse_fac.jpg" class="d-block w-100" alt="IMG2">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/lab.jpg" class="d-block w-100" alt="IMG3">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/img/csed_office.jpg" class="d-block w-100" alt="IMG3">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
             <h3>Objectives and outcomes of the Lab:</h3>
@@ -264,7 +306,7 @@
     </section><!-- End RECENT ACTIVITIES Section -->
 
 
-    <!-- ======= RECENT ACTIVITIES ======= -->
+    <!-- ======= CONDUCTED EVENTS ======= -->
     <section id="popular-courses" class="courses">
       <div class="container" data-aos="fade-up">
 
@@ -316,91 +358,20 @@
         </div>
 
       </div>
-    </section><!-- End RECENT ACTIVITIES Section -->
-
-
-    </div>
-    </div>
-
-    </div>
-    </section>
-
-
-
-    </div>
-
-    </div>
-    </section> -->
-    <!-- End Popular Courses Section -->
+    </section><!-- End CONDUCTED EVENTS Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Mentor</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
     <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+        Department of Computer Science and Engineering <br />
+        National Institute of Technology Calicut
       </div>
+
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
